@@ -73,3 +73,4 @@ func (l *Log) newSegment(baseOffset uint64) error {
 l.activeSegment = s
 return nil
 }
+
